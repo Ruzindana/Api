@@ -12,7 +12,7 @@ const mongoose = require("mongoose");
 
 let db_url =
   process.env.DB_URL ||
-  `mongodb+srv://admin:RYGvAr1ine0kZmVf@api.4wjwu.mongodb.net/xhinda?retryWrites=true&w=majority`;
+  ``;
 
 mongoose.connect(db_url, {
   useNewUrlParser: true,
